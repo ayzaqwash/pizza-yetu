@@ -44,11 +44,76 @@
         <section id="order" class="py 5" class="bg-white">
             <div class="container-fluid">
                 <div class="row">
+                    <div class="col md 4 mx auto py 2">
+                        <form id="myform">
+                            <div class="checkout-form">
+                                <label for="sell">Select type</label>
+                                <select class="form control" id="type">
+                                    <option value="">Chicken tikka</option>
+                                    <option value="">Margess</option>
+                                    <option value="">California pizza</option>
+                                    <option value="">NY pizza</option>
+                                    <option value="">Brabess</option>
+                                    <option value="">Hot pizza</option>
+                                </select>
+                            </div>
+                            <div class="checkout-form">
+                                <label for="sell">Select size</label>
+                                <select class="form control" id="size">
+                                    <option value="1">Large --1200</option>
+                                    <option value="2">Medium --900</option>
+                                    <option value="3">Small --600</option>
+                                </select>
+                            </div>
+                            <div class="checkout-form">
+                                <label for="sell">Select crust</label>
+                                <select class="form control" id="crust">
+                                    <option value="">Crispy</option>
+                                    <option value="">Stuffed</option>
+                                    <option value="">Glutten free</option>
+                                    <option value="">Margarita</option>
+                                </select>
+                            </div>
+                            <div class="checkout-form">
+                                <label for="sell">Select topping</label>
+                                <select class="form control" id="topping">
+                                    <option>Paperoni</option>
+                                    <option>Mashroom</option>
+                                    <option>Tomato</option>
+                                    <option>Onions</option>
+                                    <option>Beacon</option>
+                                    
+                                </select>
+                            </div>
+                            <div class="checkout-form">
+                                <label for="sell">Quantity</label>
+                                <input type="number" id="qty" class="form-control" min="1" required>
 
+                                    
+                                </select>
+                            </div>
+                            <div class="checkout-form">
+                                <label for="sell">Delivery option</label>
+                                <select class="form control" id="pick">
+                                    <option value="1">Self pick up</option>
+                                    <option value="2">Delivered</option>
+                                    
+                                </select>
+                            </div>
+                            <br>
+                            <div class="checkout-form">
+                                <button type="submit" class="btn btn-danger">Checkout</button>
+                            </div>
+                        </form>
+                    </div>
                 </div>
             </div>
         </section>
+        <script src="js/jquery-3.6.0.js"></script>
+        <script src="css/js/bootstrap.bundle.min.js"></script>
+        <script src="js/scripts.js"></script>
     </div>
+
 </body>
 
 </html>
